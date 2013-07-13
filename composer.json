@@ -18,9 +18,9 @@
   },
 
   "autoload": {
-    "psr-0": {
-      "Flame": ""
-    }
+    "classmap": [
+      "src/"
+    ]
   },
 
   "require": {
