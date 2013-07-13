@@ -1,35 +1,37 @@
 {
-	"name": "flame-cms/doctrine-bundle",
+  "name": "flame-cms/doctrine-bundle",
   "type": "nette-bundle",
-	"description": "Doctrine bundle",
-	"keywords": ["doctrine bundle", "nette", "flame", "doctrine", "bundle", "cms"],
-	"homepage": "https://github.com/flame-cms/Doctrine-Bundle",
-	"license": "BSD-3",
+  "description": "Doctrine bundle",
+  "keywords": ["doctrine bundle", "nette", "flame", "doctrine", "bundle", "cms"],
+  "homepage": "https://github.com/flame-cms/Doctrine-Bundle",
+  "license": "BSD-3",
 
-	"authors": [
-		{
-			"name": "Jiří Šifalda",
-			"homepage": "http://jsifalda.name/"
-		}
-	],
+  "authors": [
+    {
+      "name": "Jiří Šifalda",
+      "homepage": "http://jsifalda.name/"
+    }
+  ],
 
   "config": {
     "vendor-dir": "libs"
   },
 
   "autoload": {
-    "psr-0": {"Flame\\CMS\\DoctrineBundle": "DoctrineBundle/"}
+    "psr-0": {
+      "Flame\\CMS\\DoctrineBundle": "DoctrineBundle/"
+    }
   },
 
-	"require": {
-		"nette/nette": "@dev",
+  "require": {
+    "nette/nette": "dev-master",
     "doctrine/orm": "2.3.4",
-    "doctrine/migrations": "@dev",
-    "kdyby/doctrine": "@dev",
-    "kdyby/events": "@dev",
-    "kdyby/console": "@dev",
-    "flame/doctrine": "@dev",
-    "flame/bundles": "@dev",
-    "flame/bundle-installer": "@dev"
-	}
+    "doctrine/migrations": "dev-master",
+    "kdyby/doctrine": "dev-master",
+    "kdyby/events": "dev-master",
+    "kdyby/console": "dev-master",
+    "flame/doctrine": "dev-master",
+    "flame/bundles": "dev-master",
+    "flame/bundle-installer": "dev-master"
+  }
 }
