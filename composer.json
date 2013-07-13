@@ -1,0 +1,28 @@
+{
+	"name": "flame-cms/doctrine-bundle",
+  "type": "nette-bundle",
+	"description": "Doctrine bundle",
+	"keywords": ["doctrine bundle", "nette", "flame", "doctrine", "bundle", "cms"],
+	"homepage": "https://github.com/flame-cms/Doctrine-Bundle",
+	"license": "BSD-3",
+	"authors": [
+		{
+			"name": "Jiří Šifalda",
+			"homepage": "http://jsifalda.name/"
+		}
+	],
+  "config": {
+    "vendor-dir": "libs"
+  },
+	"require": {
+		"nette/nette": "@dev",
+    "doctrine/orm": "2.3.4",
+    "doctrine/migrations": "@dev",
+    "kdyby/doctrine": "@dev",
+    "kdyby/events": "@dev",
+    "kdyby/console": "@dev",
+    "flame/doctrine": "@dev",
+    "flame/bundle": "@dev",
+    "flame/bundle-installer": "@dev"
+	}
+}
