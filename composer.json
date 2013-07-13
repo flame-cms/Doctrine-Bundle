@@ -5,15 +5,22 @@
 	"keywords": ["doctrine bundle", "nette", "flame", "doctrine", "bundle", "cms"],
 	"homepage": "https://github.com/flame-cms/Doctrine-Bundle",
 	"license": "BSD-3",
+
 	"authors": [
 		{
 			"name": "Jiří Šifalda",
 			"homepage": "http://jsifalda.name/"
 		}
 	],
+
   "config": {
     "vendor-dir": "libs"
   },
+
+  "autoload": {
+    "psr-0": {"Flame\\CMS\\DoctrineBundle": "DoctrineBundle/"}
+  },
+
 	"require": {
 		"nette/nette": "@dev",
     "doctrine/orm": "2.3.4",
