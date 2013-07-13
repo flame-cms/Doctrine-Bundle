@@ -1,0 +1,10 @@
+doctrine:
+  host: localhost
+  dbname: enlan
+  user: root
+  password: root
+  metadata:
+    Enlan\Entity: %appDir%/Entity
+
+console:
+  url: 'http://enlan.lc'
