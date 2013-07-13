@@ -22,7 +22,7 @@
     "kdyby/events": "@dev",
     "kdyby/console": "@dev",
     "flame/doctrine": "@dev",
-    "flame/bundle": "@dev",
+    "flame/bundles": "@dev",
     "flame/bundle-installer": "@dev"
 	}
 }
