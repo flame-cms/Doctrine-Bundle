@@ -17,6 +17,14 @@
     "vendor-dir": "libs"
   },
 
+  "target-dir": "Flame/CMS/DoctrineBundle",
+
+  "autoload": {
+    "psr-0": {
+      "Flame": ""
+    }
+  },
+
   "require": {
     "nette/nette": "dev-master",
     "doctrine/orm": "2.3.4",
