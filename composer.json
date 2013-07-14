@@ -1,6 +1,6 @@
 {
   "name": "flame-cms/doctrine-bundle",
-  "type": "nette-bundle",
+  "type": "library",
   "description": "Doctrine bundle",
   "keywords": ["doctrine bundle", "nette", "flame", "doctrine", "bundle", "cms"],
   "homepage": "https://github.com/flame-cms/Doctrine-Bundle",
@@ -25,7 +25,6 @@
     "kdyby/events": "dev-master",
     "kdyby/console": "dev-master",
     "flame/doctrine": "dev-master",
-    "flame/bundles": "dev-master",
-    "flame/bundle-installer": "dev-master"
+    "flame/bundles": "dev-master"
   }
 }
