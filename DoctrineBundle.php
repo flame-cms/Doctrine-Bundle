@@ -21,8 +21,7 @@ class DoctrineBundle extends Bundle
 	public function getConfigFiles()
 	{
 		return array(
-			$this->getCurrentPath() . '/config/config.neon',
-			$this->getCurrentPath() . '/config/config.local.neon'
+			$this->getCurrentPath() . '/config/config.neon'
 		);
 	}
 
